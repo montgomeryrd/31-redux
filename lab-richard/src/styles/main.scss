@@ -1,0 +1,46 @@
+$font-stack:    Helvetica, sans-serif;
+$base-font-size: 14px;
+$line-height: 20px;
+$primary-color: black;
+$secondary-color: rgb(70, 64, 64);
+$tertiary-color: rgb(156, 136, 21);
+
+body {
+  font: 100% $font-stack;
+}
+
+h1 {
+  text-align: center;
+  color: $primary-color;
+  font-size: 50px;
+}
+
+div {
+  text-align: center;
+  font-size: $base-font-size;
+  color: $secondary-color;
+}
+
+li {
+  text-align: left;
+}
+
+.category-form {
+  background: rgb(179, 179, 179);
+  margin: 5px;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+  font-family: Arial;
+  font-size: 12px;
+  border: none;
+  padding: 11px;
+  width: 100px;
+  margin: 5px;
+  background: $tertiary-color;
+}
